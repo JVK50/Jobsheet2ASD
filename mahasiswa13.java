@@ -1,4 +1,4 @@
-public class mahasiswa13 {
+class mahasiswa13 {
 String nama;
 String nim;
 String kelas;
@@ -28,9 +28,9 @@ double ipk;
             return "Kinerja sangat baik";
         } else if (ipk >= 3.0) {
             return "Kinerja baik";
-        } else if (ipk >= 2.5) {
-            return "Kinerja cukup";
         } else if (ipk >= 2.0) {
+            return "Kinerja cukup";
+        } else {
             return "Kinerja kurang";
         }
     }
